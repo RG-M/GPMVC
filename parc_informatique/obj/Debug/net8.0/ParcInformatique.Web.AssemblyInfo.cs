@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParcInformatique.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73feb6d40498e4327f4e6c6db44b13734580ec02")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc33d4fb2f28a4963969a6b7b319f599209c53e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParcInformatique.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParcInformatique.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

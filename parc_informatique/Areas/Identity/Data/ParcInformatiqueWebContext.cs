@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using ParcInformatique.Data.Entities;
 
-//namespace Entities;
+namespace ParcInformatique.Web.Data;
 
-//public class ApplicationContext : IdentityDbContext<IdentityUser>
+//public class ParcInformatiqueWebContext : IdentityDbContext<Utilisateur>
 //{
-//    public ApplicationContext(DbContextOptions<ApplicationContext> options)
+//    public ParcInformatiqueWebContext(DbContextOptions<ParcInformatiqueWebContext> options)
 //        : base(options)
 //    {
 //    }
