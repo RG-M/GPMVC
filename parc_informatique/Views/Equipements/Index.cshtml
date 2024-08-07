@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ParcInformatiqueData.Entities.Equipement>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.libelle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.marque)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.libelle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.marque)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.num_serie">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.num_serie">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.num_serie">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

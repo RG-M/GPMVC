@@ -1,0 +1,14 @@
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\bin\Debug\net8.0\ParcInformatiqueData.deps.json
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\bin\Debug\net8.0\ParcInformatiqueData.runtimeconfig.json
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\bin\Debug\net8.0\ParcInformatiqueData.dll
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\bin\Debug\net8.0\ParcInformatiqueData.pdb
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\obj\Debug\net8.0\ParcInformatiqueData.csproj.AssemblyReference.cache
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\obj\Debug\net8.0\ParcInformatiqueData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\obj\Debug\net8.0\ParcInformatiqueData.AssemblyInfoInputs.cache
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\obj\Debug\net8.0\ParcInformatiqueData.AssemblyInfo.cs
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\obj\Debug\net8.0\ParcInformatiqueData.csproj.CoreCompileInputs.cache
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\obj\Debug\net8.0\ParcInformatiqueData.dll
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\obj\Debug\net8.0\refint\ParcInformatiqueData.dll
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\obj\Debug\net8.0\ParcInformatiqueData.pdb
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\obj\Debug\net8.0\ParcInformatiqueData.genruntimeconfig.cache
+C:\Users\rigui\Downloads\parc_informatique\parc_informatique\Data\obj\Debug\net8.0\ref\ParcInformatiqueData.dll
