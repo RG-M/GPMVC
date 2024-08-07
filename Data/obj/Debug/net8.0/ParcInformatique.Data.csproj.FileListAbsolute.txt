@@ -1,0 +1,15 @@
+D:\GPMVC\Data\bin\Debug\net8.0\ParcInformatique.Data.deps.json
+D:\GPMVC\Data\bin\Debug\net8.0\ParcInformatique.Data.runtimeconfig.json
+D:\GPMVC\Data\bin\Debug\net8.0\ParcInformatique.Data.dll
+D:\GPMVC\Data\bin\Debug\net8.0\ParcInformatique.Data.pdb
+D:\GPMVC\Data\obj\Debug\net8.0\ParcInformatique.Data.csproj.AssemblyReference.cache
+D:\GPMVC\Data\obj\Debug\net8.0\ParcInformatique.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\GPMVC\Data\obj\Debug\net8.0\ParcInformatique.Data.AssemblyInfoInputs.cache
+D:\GPMVC\Data\obj\Debug\net8.0\ParcInformatique.Data.AssemblyInfo.cs
+D:\GPMVC\Data\obj\Debug\net8.0\ParcInformatique.Data.csproj.CoreCompileInputs.cache
+D:\GPMVC\Data\obj\Debug\net8.0\ParcInformatique.Data.sourcelink.json
+D:\GPMVC\Data\obj\Debug\net8.0\ParcInformatique.Data.dll
+D:\GPMVC\Data\obj\Debug\net8.0\refint\ParcInformatique.Data.dll
+D:\GPMVC\Data\obj\Debug\net8.0\ParcInformatique.Data.pdb
+D:\GPMVC\Data\obj\Debug\net8.0\ParcInformatique.Data.genruntimeconfig.cache
+D:\GPMVC\Data\obj\Debug\net8.0\ref\ParcInformatique.Data.dll

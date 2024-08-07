@@ -1,14 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
-using ParcInformatiqueData.Entities;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
+using ParcInformatique.Data.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities
+namespace ParcInformatique.Data
 {
-    public class ApplicationContext:DbContext
+    public class ApplicationContext:IdentityDbContext<Utilisateur>
     {
         public ApplicationContext(DbContextOptions<ApplicationContext> opt) : base(opt) { }
         //public ApplicationContext(){}

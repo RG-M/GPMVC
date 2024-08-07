@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\parc_informatique\\ParcInformatiqueWeb.csproj": {}
+    "D:\\GPMVC\\parc_informatique\\ParcInformatiqueWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\Data\\ParcInformatiqueData.csproj": {
+    "D:\\GPMVC\\Data\\ParcInformatique.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\Data\\ParcInformatiqueData.csproj",
-        "projectName": "ParcInformatiqueData",
-        "projectPath": "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\Data\\ParcInformatiqueData.csproj",
-        "packagesPath": "C:\\Users\\rigui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\Data\\obj\\",
+        "projectUniqueName": "D:\\GPMVC\\Data\\ParcInformatique.Data.csproj",
+        "projectName": "ParcInformatique.Data",
+        "projectPath": "D:\\GPMVC\\Data\\ParcInformatique.Data.csproj",
+        "packagesPath": "C:\\Users\\rigui.DB2DSI-NPW\\.nuget\\packages\\",
+        "outputPath": "D:\\GPMVC\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rigui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rigui.DB2DSI-NPW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -99,17 +99,17 @@
         }
       }
     },
-    "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\parc_informatique\\ParcInformatiqueWeb.csproj": {
+    "D:\\GPMVC\\parc_informatique\\ParcInformatiqueWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\parc_informatique\\ParcInformatiqueWeb.csproj",
+        "projectUniqueName": "D:\\GPMVC\\parc_informatique\\ParcInformatiqueWeb.csproj",
         "projectName": "ParcInformatiqueWeb",
-        "projectPath": "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\parc_informatique\\ParcInformatiqueWeb.csproj",
-        "packagesPath": "C:\\Users\\rigui\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\parc_informatique\\obj\\",
+        "projectPath": "D:\\GPMVC\\parc_informatique\\ParcInformatiqueWeb.csproj",
+        "packagesPath": "C:\\Users\\rigui.DB2DSI-NPW\\.nuget\\packages\\",
+        "outputPath": "D:\\GPMVC\\parc_informatique\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\rigui\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rigui.DB2DSI-NPW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,8 +124,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\Data\\ParcInformatiqueData.csproj": {
-                "projectPath": "C:\\Users\\rigui\\Downloads\\parc_informatique\\parc_informatique\\Data\\ParcInformatiqueData.csproj"
+              "D:\\GPMVC\\Data\\ParcInformatique.Data.csproj": {
+                "projectPath": "D:\\GPMVC\\Data\\ParcInformatique.Data.csproj"
               }
             }
           }

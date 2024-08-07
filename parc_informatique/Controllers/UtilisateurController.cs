@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ParcInformatiqueData.Entities;
+using ParcInformatique.Data.Entities;
 using ParcInformatiqueWeb.IServices;
 
 namespace parc_informatique.Controllers

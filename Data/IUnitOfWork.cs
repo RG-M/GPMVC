@@ -1,12 +1,12 @@
-﻿using ParcInformatiqueData.Entities;
-using ParcInformatiqueData.Repositories;
+﻿using ParcInformatique.Data.Entities;
+using ParcInformatique.Data.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParcInformatiqueData
+namespace ParcInformatique.Data
 {
     public interface IUnitOfWork : IDisposable
     {

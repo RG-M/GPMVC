@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParcInformatiqueData.Repositories
+namespace ParcInformatique.Data.Repositories
 {
     public interface IRepository<T>
     {

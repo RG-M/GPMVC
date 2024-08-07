@@ -11,7 +11,7 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.7",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.7",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.3",
-          "ParcInformatiqueData": "1.0.0"
+          "ParcInformatique.Data": "1.0.0"
         },
         "runtime": {
           "ParcInformatiqueWeb.dll": {}
@@ -1910,7 +1910,7 @@
           }
         }
       },
-      "ParcInformatiqueData/1.0.0": {
+      "ParcInformatique.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "8.0.7",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7",
@@ -1919,7 +1919,7 @@
           "Microsoft.Extensions.Configuration.Json": "8.0.0"
         },
         "runtime": {
-          "ParcInformatiqueData.dll": {}
+          "ParcInformatique.Data.dll": {}
         }
       }
     }
@@ -3085,7 +3085,7 @@
       "path": "system.windows.extensions/7.0.0",
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
     },
-    "ParcInformatiqueData/1.0.0": {
+    "ParcInformatique.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

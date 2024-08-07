@@ -17,63 +17,63 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ParcInformatiqueWeb
 build_property.RootNamespace = ParcInformatiqueWeb
-build_property.ProjectDir = C:\Users\rigui\Downloads\parc_informatique\parc_informatique\parc_informatique\
+build_property.ProjectDir = D:\GPMVC\parc_informatique\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rigui\Downloads\parc_informatique\parc_informatique\parc_informatique
+build_property.MSBuildProjectDirectory = D:\GPMVC\parc_informatique
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Equipements/Create.cshtml]
+[D:/GPMVC/parc_informatique/Views/Equipements/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlbWVudHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Equipements/Delete.cshtml]
+[D:/GPMVC/parc_informatique/Views/Equipements/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlbWVudHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Equipements/Details.cshtml]
+[D:/GPMVC/parc_informatique/Views/Equipements/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlbWVudHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Equipements/Edit.cshtml]
+[D:/GPMVC/parc_informatique/Views/Equipements/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlbWVudHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Equipements/Index.cshtml]
+[D:/GPMVC/parc_informatique/Views/Equipements/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBlbWVudHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Home/Index.cshtml]
+[D:/GPMVC/parc_informatique/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Home/Privacy.cshtml]
+[D:/GPMVC/parc_informatique/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Shared/Error.cshtml]
+[D:/GPMVC/parc_informatique/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/GPMVC/parc_informatique/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Utilisateur/Index.cshtml]
+[D:/GPMVC/parc_informatique/Views/Utilisateur/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXRpbGlzYXRldXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/_ViewImports.cshtml]
+[D:/GPMVC/parc_informatique/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/_ViewStart.cshtml]
+[D:/GPMVC/parc_informatique/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rigui/Downloads/parc_informatique/parc_informatique/parc_informatique/Views/Shared/_Layout.cshtml]
+[D:/GPMVC/parc_informatique/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rmuspvu3yh

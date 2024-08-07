@@ -1,5 +1,5 @@
-﻿using ParcInformatiqueData;
-using ParcInformatiqueData.Entities;
+﻿using ParcInformatique.Data;
+using ParcInformatique.Data.Entities;
 using ParcInformatiqueWeb.IServices;
 using System.Reflection.Metadata.Ecma335;
 

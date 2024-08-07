@@ -1,4 +1,4 @@
-﻿using ParcInformatiqueData.Entities;
+﻿using ParcInformatique.Data.Entities;
 
 namespace ParcInformatiqueWeb.IServices
 {

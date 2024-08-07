@@ -3,12 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcInformatiqueWeb", "parc_informatique\ParcInformatiqueWeb.csproj", "{3C8A3E6C-48A3-41CF-83DE-A6571B554C07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcInformatique.Web", "parc_informatique\ParcInformatique.Web.csproj", "{3C8A3E6C-48A3-41CF-83DE-A6571B554C07}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E4BF782F-93C6-4909-8CA6-D97776617104} = {E4BF782F-93C6-4909-8CA6-D97776617104}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcInformatiqueData", "Data\ParcInformatiqueData.csproj", "{E4BF782F-93C6-4909-8CA6-D97776617104}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcInformatique.Data", "Data\ParcInformatique.Data.csproj", "{E4BF782F-93C6-4909-8CA6-D97776617104}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

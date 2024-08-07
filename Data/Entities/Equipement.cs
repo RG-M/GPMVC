@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ParcInformatiqueData.Entities
+namespace ParcInformatique.Data.Entities
 {
     public class Equipement
     {

@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Entities;
-using ParcInformatiqueData.Entities;
+using ParcInformatique.Data;
+using ParcInformatique.Data.Entities;
 
-namespace parc_informatique.Controllers
+namespace ParcInformatique.Web.Controllers
 {
     public class EquipementsController : Controller
     {

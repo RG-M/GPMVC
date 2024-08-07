@@ -1,6 +1,6 @@
-using Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ParcInformatiqueData;
+using ParcInformatique.Data;
 using ParcInformatiqueWeb.IServices;
 using ParcInformatiqueWeb.Service.cs;
 
@@ -13,8 +13,13 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+//builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApplicationContext>();
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Use Identity with roles (Custom AppUser to add more attributes to the user table)
+builder.Services.AddIdentity<ApplicationContext, IdentityRole>().AddEntityFrameworkStores<ApplicationContext>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IUtilisateurService, UtilisateurService>();
