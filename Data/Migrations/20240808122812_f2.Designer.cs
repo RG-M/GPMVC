@@ -12,8 +12,8 @@ using ParcInformatique.Data;
 namespace ParcInformatique.Data.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20240807122954_Update1")]
-    partial class Update1
+    [Migration("20240808122812_f2")]
+    partial class f2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -176,11 +176,14 @@ namespace ParcInformatique.Data.Migrations
 
             modelBuilder.Entity("ParcInformatique.Data.Entities.Equipement", b =>
                 {
-                    b.Property<int>("num_serie")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("num_serie"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Utilisateur_Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("libelle")
                         .HasColumnType("nvarchar(max)");
@@ -188,7 +191,18 @@ namespace ParcInformatique.Data.Migrations
                     b.Property<string>("marque")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("num_serie");
+                    b.Property<string>("nom")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("num_serie")
+                        .HasColumnType("int");
+
+                    b.Property<string>("type")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Utilisateur_Id");
 
                     b.ToTable("Equipements");
                 });
@@ -200,6 +214,9 @@ namespace ParcInformatique.Data.Migrations
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
+
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int?>("Age")
                         .HasColumnType("int");
@@ -316,6 +333,15 @@ namespace ParcInformatique.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("ParcInformatique.Data.Entities.Equipement", b =>
+                {
+                    b.HasOne("ParcInformatique.Data.Entities.Utilisateur", "Utilisateur")
+                        .WithMany()
+                        .HasForeignKey("Utilisateur_Id");
+
+                    b.Navigation("Utilisateur");
                 });
 #pragma warning restore 612, 618
         }

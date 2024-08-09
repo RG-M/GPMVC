@@ -1,0 +1,57 @@
+﻿@model ParcInformatique.Web.Models.GereEquipementViewModel
+
+@{
+    ViewData["Title"] = "GererEquipementsUser";
+}
+
+<h1>Liste des equipements</h1>
+<div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Serie</th>
+                <td>marque</td>,
+                <th>Nom</th>
+                <th>Type</th>
+                <th>User</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var equipement in Model.Equipements)
+            {
+                <tr>
+                    <td>@equipement.Id</td>
+                    <td>@equipement.num_serie</td>
+                    <td>@equipement.marque</td>,
+                     <td>@equipement.nom</td>
+                    <td>@equipement.type</td>
+                    <td>@equipement.Utilisateur?.UserName</td>
+                    <td>
+                        <a asp-action="DeleteEquipementsUser" asp-controller="Equipements" asp-route-id="@equipement.Id">Supprimer Equipement</a>
+@*                         <a asp-action="EditeEquipementsUser" asp-controller="Equipements" asp-route-id="@equipement.Id">Modifier Equipement</a>
+ *@                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div>
+   
+        <div class="form-group">
+            <input type="text" id="idEquipement" >
+            <input type="text" id="idUtilisateur">
+            <button onclick="click()" class="btn btn-default" value="Button" />
+        </div>
+    
+</div>
+
+<script>
+
+    function click(){
+        console.log("test");
+    }
+    
+</script>

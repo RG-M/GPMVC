@@ -15,6 +15,7 @@ namespace ParcInformatique.Data
         private Dictionary<Type, object> _repositories;
 
         private IRepository<Utilisateur> _UtilisateurRepository;
+        private IRepository<Equipement> _EquipementRepository;
 
 
         public UnitOfWork(ApplicationContext context)
@@ -36,6 +37,7 @@ namespace ParcInformatique.Data
         }
 
         public IRepository<Utilisateur> UtilisateurRepository => _UtilisateurRepository ?? (_UtilisateurRepository = new Repository<Utilisateur>(_context));
+        public IRepository<Equipement> EquipementRepository => _EquipementRepository ?? (_EquipementRepository = new Repository<Equipement>(_context));
 
         public void SaveChanges()
         {

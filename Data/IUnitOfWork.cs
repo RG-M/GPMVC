@@ -11,6 +11,8 @@ namespace ParcInformatique.Data
     public interface IUnitOfWork : IDisposable
     {
         IRepository<Utilisateur> UtilisateurRepository { get; }
+        IRepository<Equipement> EquipementRepository { get; }
+
         //IRepository<TEntity> GetRepository<TEntity>() where TEntity : class;
         void SaveChanges();
     }

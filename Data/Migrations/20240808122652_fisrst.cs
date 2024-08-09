@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ParcInformatique.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class Update1 : Migration
+    public partial class fisrst : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -46,6 +46,7 @@ namespace ParcInformatique.Data.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Age = table.Column<int>(type: "int", nullable: true),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "nvarchar(256)", maxLength: 256, nullable: true),
@@ -64,20 +65,6 @@ namespace ParcInformatique.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Equipements",
-                columns: table => new
-                {
-                    num_serie = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    libelle = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    marque = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Equipements", x => x.num_serie);
                 });
 
             migrationBuilder.CreateTable(
@@ -186,6 +173,30 @@ namespace ParcInformatique.Data.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Equipements",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    num_serie = table.Column<int>(type: "int", nullable: false),
+                    libelle = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    marque = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    nom = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    type = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    idUtilisateur = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Utilisateur_Id = table.Column<string>(type: "nvarchar(450)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Equipements", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Equipements_AspNetUsers_Utilisateur_Id",
+                        column: x => x.Utilisateur_Id,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id");
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -224,6 +235,11 @@ namespace ParcInformatique.Data.Migrations
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Equipements_Utilisateur_Id",
+                table: "Equipements",
+                column: "Utilisateur_Id");
         }
 
         /// <inheritdoc />

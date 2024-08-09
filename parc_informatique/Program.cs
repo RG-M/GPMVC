@@ -6,6 +6,7 @@ using ParcInformatique.Data.Entities;
 using ParcInformatiqueWeb.IServices;
 using ParcInformatiqueWeb.Service.cs;
 using ParcInformatique.Web.Data;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,14 +19,25 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-
-builder.Services.AddIdentity<Utilisateur, IdentityRole>()
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(option =>
+{
+    option.LoginPath = "/Access/Login";
+    option.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+});
+builder.Services.AddIdentity<Utilisateur, IdentityRole>(o =>
+{
+    o.Password.RequireDigit = false;
+    o.Password.RequireLowercase = false;
+    o.Password.RequireUppercase = false;
+    o.Password.RequireNonAlphanumeric = false;
+    o.Password.RequiredLength = 4;
+})
         .AddEntityFrameworkStores<ApplicationContext>()
         .AddDefaultTokenProviders()
         .AddDefaultUI();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<IUtilisateurService, UtilisateurService>();
+builder.Services.AddScoped<IGererEquipementUserService, UtilisateurService>();
 
 var app = builder.Build();
 
@@ -51,5 +63,10 @@ app.MapControllerRoute(
    );
 
 app.MapRazorPages();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapRazorPages();
+});
 
 app.Run();

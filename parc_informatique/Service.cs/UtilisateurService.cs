@@ -5,7 +5,7 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace ParcInformatiqueWeb.Service.cs
 {
-    public class UtilisateurService:IUtilisateurService
+    public class UtilisateurService:IGererEquipementUserService
     {
         private readonly IUnitOfWork _unitOfWork;
 
@@ -16,7 +16,7 @@ namespace ParcInformatiqueWeb.Service.cs
 
         public void AddUser(Utilisateur user)
         {
-            // Additional logic, if any...
+            _unitOfWork.UtilisateurRepository.Add(user);
 
             _unitOfWork.SaveChanges();
         }

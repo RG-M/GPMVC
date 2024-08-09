@@ -1,7 +1,8 @@
 ﻿@using Microsoft.AspNetCore.Identity
+@using ParcInformatique.Data.Entities
 
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<Utilisateur> SignInManager
+@inject UserManager<Utilisateur> UserManager
 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))

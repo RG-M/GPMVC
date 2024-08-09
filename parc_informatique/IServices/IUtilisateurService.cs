@@ -2,7 +2,7 @@
 
 namespace ParcInformatiqueWeb.IServices
 {
-    public interface IUtilisateurService
+    public interface IGererEquipementUserService
     {
         void AddUser(Utilisateur user);
         IEnumerable<Utilisateur> GetAllUsers();

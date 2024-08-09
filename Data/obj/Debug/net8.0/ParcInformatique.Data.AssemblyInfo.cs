@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ParcInformatique.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc33d4fb2f28a4963969a6b7b319f599209c53e3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+675d5d7362e567624ca0ee23e67378f04eb6ac7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("ParcInformatique.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ParcInformatique.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

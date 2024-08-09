@@ -3,22 +3,21 @@ using Microsoft.AspNetCore.Mvc;
 using ParcInformatique.Data.Entities;
 using ParcInformatiqueWeb.IServices;
 
-namespace parc_informatique.Controllers
+namespace ParcInformatique.Web.Controllers
 {
     public class UtilisateurController : Controller
     {
-        private readonly IUtilisateurService _utilisateurService;
+        private readonly IGererEquipementUserService _utilisateurService;
 
-        public UtilisateurController(IUtilisateurService utilisateurService)
+        public UtilisateurController(IGererEquipementUserService utilisateurService)
         {
             _utilisateurService = utilisateurService;
         }
-
         // GET: UtilisateurController
         public ActionResult Index()
         {
-            IEnumerable<Utilisateur> listUsers = _utilisateurService.GetAllUsers();
-            return View();
+            List<Utilisateur> list = _utilisateurService.GetAllUsers().ToList();
+            return View("~/Views/Utilisateur/Index.cshtml", list);
         }
 
         // GET: UtilisateurController/Details/5
@@ -89,5 +88,6 @@ namespace parc_informatique.Controllers
                 return View();
             }
         }
+        
     }
 }
